@@ -2,7 +2,7 @@
 
 ## v1.0.1 (2018-01-17)
 
-- release text
+- [Enhanced] Display error message without error code
 
 ## v1.0.0 (2017-12-08)
 
