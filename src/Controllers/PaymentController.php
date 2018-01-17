@@ -84,7 +84,7 @@ class PaymentController extends Controller
         array_push($notifications,[
                 'message' => $this->paymentHelper->getNovalnetStatusText($requestData),
                 'type'    => $isPaymentSuccess ? 'success' : 'error',
-                'code'    => 0
+                'code'    => ''
             ]);
         $this->sessionStorage->getPlugin()->setValue('notifications', json_encode($notifications));
 
